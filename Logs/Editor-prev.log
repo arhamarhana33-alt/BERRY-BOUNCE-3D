@@ -1,0 +1,723 @@
+Unity Editor version:    6000.6.7f1 (b22767f04f04)
+Branch:                  6000.6/staging
+Build type:              Release
+Batch mode:              NO
+macOS version:           Version 27.0.1 (Build 26A434)
+Darwin version:          27.0.0
+Architecture:            arm64
+Running under Rosetta:   NO
+Available memory:        16384 MB
+Date:                    2026-11-27T11:20:53Z
+VBCSCompilerPreWarmer: watching VBCSCompiler (PID 3684)
+VBCSCompilerPreWarmer: pre-warm launched (dotnet PID 3686)
+VBCSCompiler prewarm took 2.94 ms
+[Licensing::Module] Trying to connect to existing licensing client channel...
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-mac399" at "2026-11-27T11:20:53.947308Z"
+
+COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/6000.6.7f1/Unity.app/Contents/MacOS/Unity
+-projectpath
+/Users/mac399/Documents/BERRY-BOUNCE-3D
+-acceptSoftwareTermsForThisRunOnly
+-useHub
+-hubIPC
+-cloudEnvironment
+production
+-licensingIpc
+LicenseClient-mac399
+-hubSessionId
+fe083785-7fdc-4ec3-8847-e94f769b3651
+-accessToken
+jaUpDeziiRKsBuqiR4OWVDmAk5zOzST59Wl2aeQFKHE00cf
+Successfully changed project path to: /Users/mac399/Documents/BERRY-BOUNCE-3D
+/Users/mac399/Documents/BERRY-BOUNCE-3D
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-remapper-allocator-initial-capacity=32768"
+    "memorysetup-temp-allocator-size-gfx=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-main-allocator-mimalloc-enabled=1"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+Player connection [8175730560]  Target information:
+
+Player connection [8175730560]  * "[IP] 10.95.16.220 [Port] 55504 [Flags] 2 [Guid] 4034930792 [EditorId] 4034930792 [Version] 1048832 [Id] OSXEditor(0,MVA4444s-Mac-mini.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" 
+
+Player connection [8175730560] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [8175730560] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.18.3+d7ffd15
+  Session Id:              611f4a5c1e0b49ce8b49ab484a491bae
+  Correlation Id:          9e134807399b2c304ab60ff7ffff4a1e
+  External correlation Id: 213280546451242239
+  Machine Id:              DUHqmd3Z3LVhpTTW5/Hqud+6RtU=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-mac399" (connect: 0.00s, validation: 0.00s, handshake: 0.35s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-mac399-notifications" at "2026-11-27T11:20:54.294354Z"
+[Licensing::Client] Successfully updated the access token
+[Licensing::Module] Successfully updated the access token jaUpDeziiR...
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: 13469914420843-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+[Licensing::Client] Successfully updated license, isAsync: True, time: 0.00
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] Licensing Background thread has ended after 0.35s
+[Package Manager] Connected to IPC stream "Upm-3683" after 0.3 seconds.
+[Licensing::Client] Successfully resolved entitlement details
+Library Redirect Path: Library/
+Initialising UDS system complete:
+  - System type: Client
+  - Resource namespace: 1f6734948efa42a9807c767f5c2aaf7d
+  - Shared memory size: 1073741824
+  - Command buffer id: 1052672
+  - Command buffer size: 8192
+  - Hashmap size: 4194304
+  - Service connected: false
+Launching Unity Data Store - /Applications/Unity/Hub/Editor/6000.6.7f1/Unity.app/Contents/Helpers/Unity.DataStore 
+Unity Data Store artifact dir = Library/DataStore, working dir = /Users/mac399/Documents/BERRY-BOUNCE-3DSerialized file "ProjectSettings/DynamicsManager.asset" contains a PhysicsManager object at version 11, below the supported minimum (13). Open and re-save the file to upgrade.
+Unity Data Store running and initialised
+[Physics::Module] Selected backend (deferred post-plugins).
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Initialize engine version: 6000.6.7f1 (b22767f04f04)
+[EntityIdStore] init: VM path (explicit commit), pageSize=16384, blockCount=262144, entitiesPerBlock=1024, blocksPerSlotPage=0, slots reserved=4294967296 bytes
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/6000.6.7f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/mac399/Documents/BERRY-BOUNCE-3D/Assets
+GfxDevice: creating device client; kGfxThreadingModeThreaded
+ preferred device: Apple M4 (high power)
+Metal devices available: 1
+0: Apple M4 (high power)
+Using device Apple M4 (high power)
+Initializing Metal device caps: Apple M4
+Mac GPU Family: 2
+Apple GPU Family: 9
+MSL Version: 3.0
+Has Float MSAA: 1
+Has Float Filtering: 1
+ReadWrite Texture Tier: 2
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/6000.6.7f1/Unity.app/Contents/Resources/Scripting/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/6000.6.7f1/Unity.app/Contents/Resources/Scripting/BCLExtensions/runtime/netstandard2.1'
+Mono path[2] = '/Applications/Unity/Hub/Editor/6000.6.7f1/Unity.app/Contents/Resources/Scripting/MonoBleedingEdge/lib/mono/unityjit-macos'
+Mono config path = '/Applications/Unity/Hub/Editor/6000.6.7f1/Unity.app/Contents/Resources/Scripting/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56683
+CodeReloadManager initialized
+ImportWorker Server TCP listen port: 0
+AcceleratorClientConnectionCallback - disconnected - :0
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/6000.6.7f1/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.000687 seconds.
+Native extension for OSXStandalone target not found
+Package Manager log level set to [2]
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Scripting: successfully reloaded assembly
+- Finished resetting the current domain, in  0.378 seconds
+Domain Reload Profiling: 683ms
+	BeginReloadAssembly (84ms)
+		CreateAndSetChildDomain (16ms)
+	RebuildCommonClasses (3ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (31ms)
+	LoadAllAssembliesAndSetupDomain (174ms)
+		LoadAssemblies (68ms)
+		TypeCache.Refresh (126ms)
+			TypeCache.ScanAssembly (115ms)
+		AnalyzeDomain (0ms)
+	FinalizeReload (378ms)
+		SetupLoadedEditorAssemblies (0ms)
+			BeforeProcessingInitializeOnLoad (50ms)
+			ProcessInitializeOnLoadAttributes (50ms)
+			ProcessInitializeOnLoadMethodAttributes (168ms)
+[Licensing::Client] Successfully resolved entitlement details
+Application.AssetDatabase Initial Refresh Start
+[Package Manager] Restoring resolved packages state from cache
+[Licensing::Client] Successfully resolved entitlement details
+[Package Manager] Registered 52 packages:
+  Packages from [https://packages.unity.com]:
+    com.unity.collab-proxy@2.13.6 (location: /Users/mac399/Documents/BERRY-BOUNCE-3D/Library/PackageCache/com.unity.collab-proxy@4628d2ba6ea4)
+    com.unity.ide.rider@3.1.0 (location: /Users/mac399/Documents/BERRY-BOUNCE-3D/Library/PackageCache/com.unity.ide.rider@570989d4a882)
+    com.unity.ide.visualstudio@2.0.26 (location: /Users/mac399/Documents/BERRY-BOUNCE-3D/Library/PackageCache/com.unity.ide.visualstudio@a99d56dec63f)
+    com.unity.inputsystem@1.20.1 (location: /Users/mac399/Documents/BERRY-BOUNCE-3D/Library/PackageCache/com.unity.inputsystem@2436e68c60c4)
+    com.unity.visualscripting@1.9.12 (location: /Users/mac399/Documents/BERRY-BOUNCE-3D/Library/PackageCache/com.unity.visualscripting@4edfcc09512f)
+    com.unity.performance.profile-analyzer@1.4.2 (location: /Users/mac399/Documents/BERRY-BOUNCE-3D/Library/PackageCache/com.unity.performance.profile-analyzer@5491650411cd)
+    com.unity.testtools.codecoverage@1.3.0 (location: /Users/mac399/Documents/BERRY-BOUNCE-3D/Library/PackageCache/com.unity.testtools.codecoverage@19a841221620)
+    com.unity.settings-manager@2.1.1 (location: /Users/mac399/Documents/BERRY-BOUNCE-3D/Library/PackageCache/com.unity.settings-manager@0b8638c5ce86)
+  Built-in packages:
+    com.unity.feature.development@1.0.2 (location: /Users/mac399/Documents/BERRY-BOUNCE-3D/Library/PackageCache/com.unity.feature.development@767aadbc6eb7)
+    com.unity.timeline@6.6.0 (location: /Users/mac399/Documents/BERRY-BOUNCE-3D/Library/PackageCache/com.unity.timeline@5aa4cbea9cc5)
+    com.unity.ugui@2.6.0 (location: /Users/mac399/Documents/BERRY-BOUNCE-3D/Library/PackageCache/com.unity.ugui@eb824e41fbc7)
+    com.unity.modules.accessibility@1.0.0 (location: /Users/mac399/Documents/BERRY-BOUNCE-3D/Library/PackageCache/com.unity.modules.accessibility)
+    com.unity.modules.adaptiveperformance@1.0.0 (location: /Users/mac399/Documents/BERRY-BOUNCE-3D/Library/PackageCache/com.unity.modules.adaptiveperformance)
+    com.unity.modules.ai@1.0.0 (location: /Users/mac399/Documents/BERRY-BOUNCE-3D/Library/PackageCache/com.unity.modules.ai)
+    com.unity.modules.androidjni@1.0.0 (location: /Users/mac399/Documents/BERRY-BOUNCE-3D/Library/PackageCache/com.unity.modules.androidjni)
+    com.unity.modules.animation@1.0.0 (location: /Users/mac399/Documents/BERRY-BOUNCE-3D/Library/PackageCache/com.unity.modules.animation)
+    com.unity.modules.assetbundle@1.0.0 (location: /Users/mac399/Documents/BERRY-BOUNCE-3D/Library/PackageCache/com.unity.modules.assetbundle)
+    com.unity.modules.audio@1.0.0 (location: /Users/mac399/Documents/BERRY-BOUNCE-3D/Library/PackageCache/com.unity.modules.audio)
+    com.unity.modules.cloth@1.0.0 (location: /Users/mac399/Documents/BERRY-BOUNCE-3D/Library/PackageCache/com.unity.modules.cloth)
+    com.unity.modules.director@1.0.0 (location: /Users/mac399/Documents/BERRY-BOUNCE-3D/Library/PackageCache/com.unity.modules.director)
+    com.unity.modules.imageconversion@1.0.0 (location: /Users/mac399/Documents/BERRY-BOUNCE-3D/Library/PackageCache/com.unity.modules.imageconversion)
+    com.unity.modules.imgui@1.0.0 (location: /Users/mac399/Documents/BERRY-BOUNCE-3D/Library/PackageCache/com.unity.modules.imgui)
+    com.unity.modules.jsonserialize@1.0.0 (location: /Users/mac399/Documents/BERRY-BOUNCE-3D/Library/PackageCache/com.unity.modules.jsonserialize)
+    com.unity.modules.particlesystem@1.0.0 (location: /Users/mac399/Documents/BERRY-BOUNCE-3D/Library/PackageCache/com.unity.modules.particlesystem)
+    com.unity.modules.physics@1.0.0 (location: /Users/mac399/Documents/BERRY-BOUNCE-3D/Library/PackageCache/com.unity.modules.physics)
+    com.unity.modules.physics2d@1.0.0 (location: /Users/mac399/Documents/BERRY-BOUNCE-3D/Library/PackageCache/com.unity.modules.physics2d)
+    com.unity.modules.physicscore2d@1.0.0 (location: /Users/mac399/Documents/BERRY-BOUNCE-3D/Library/PackageCache/com.unity.modules.physicscore2d)
+    com.unity.modules.screencapture@1.0.0 (location: /Users/mac399/Documents/BERRY-BOUNCE-3D/Library/PackageCache/com.unity.modules.screencapture)
+    com.unity.modules.terrain@1.0.0 (location: /Users/mac399/Documents/BERRY-BOUNCE-3D/Library/PackageCache/com.unity.modules.terrain)
+    com.unity.modules.terrainphysics@1.0.0 (location: /Users/mac399/Documents/BERRY-BOUNCE-3D/Library/PackageCache/com.unity.modules.terrainphysics)
+    com.unity.modules.tetgen@1.0.0 (location: /Users/mac399/Documents/BERRY-BOUNCE-3D/Library/PackageCache/com.unity.modules.tetgen)
+    com.unity.modules.tilemap@1.0.0 (location: /Users/mac399/Documents/BERRY-BOUNCE-3D/Library/PackageCache/com.unity.modules.tilemap)
+    com.unity.modules.timelinefoundation@1.0.0 (location: /Users/mac399/Documents/BERRY-BOUNCE-3D/Library/PackageCache/com.unity.modules.timelinefoundation)
+    com.unity.modules.ui@1.0.0 (location: /Users/mac399/Documents/BERRY-BOUNCE-3D/Library/PackageCache/com.unity.modules.ui)
+    com.unity.modules.uielements@1.0.0 (location: /Users/mac399/Documents/BERRY-BOUNCE-3D/Library/PackageCache/com.unity.modules.uielements)
+    com.unity.modules.umbra@1.0.0 (location: /Users/mac399/Documents/BERRY-BOUNCE-3D/Library/PackageCache/com.unity.modules.umbra)
+    com.unity.modules.unityanalytics@1.0.0 (location: /Users/mac399/Documents/BERRY-BOUNCE-3D/Library/PackageCache/com.unity.modules.unityanalytics)
+    com.unity.modules.unitywebrequest@1.0.0 (location: /Users/mac399/Documents/BERRY-BOUNCE-3D/Library/PackageCache/com.unity.modules.unitywebrequest)
+    com.unity.modules.unitywebrequestassetbundle@1.0.0 (location: /Users/mac399/Documents/BERRY-BOUNCE-3D/Library/PackageCache/com.unity.modules.unitywebrequestassetbundle)
+    com.unity.modules.unitywebrequestaudio@1.0.0 (location: /Users/mac399/Documents/BERRY-BOUNCE-3D/Library/PackageCache/com.unity.modules.unitywebrequestaudio)
+    com.unity.modules.unitywebrequesttexture@1.0.0 (location: /Users/mac399/Documents/BERRY-BOUNCE-3D/Library/PackageCache/com.unity.modules.unitywebrequesttexture)
+    com.unity.modules.unitywebrequestwww@1.0.0 (location: /Users/mac399/Documents/BERRY-BOUNCE-3D/Library/PackageCache/com.unity.modules.unitywebrequestwww)
+    com.unity.modules.vectorgraphics@1.0.0 (location: /Users/mac399/Documents/BERRY-BOUNCE-3D/Library/PackageCache/com.unity.modules.vectorgraphics)
+    com.unity.modules.vehicles@1.0.0 (location: /Users/mac399/Documents/BERRY-BOUNCE-3D/Library/PackageCache/com.unity.modules.vehicles)
+    com.unity.modules.video@1.0.0 (location: /Users/mac399/Documents/BERRY-BOUNCE-3D/Library/PackageCache/com.unity.modules.video)
+    com.unity.modules.wind@1.0.0 (location: /Users/mac399/Documents/BERRY-BOUNCE-3D/Library/PackageCache/com.unity.modules.wind)
+    com.unity.modules.xr@1.0.0 (location: /Users/mac399/Documents/BERRY-BOUNCE-3D/Library/PackageCache/com.unity.modules.xr)
+    com.unity.modules.subsystems@1.0.0 (location: /Users/mac399/Documents/BERRY-BOUNCE-3D/Library/PackageCache/com.unity.modules.subsystems)
+    com.unity.modules.hierarchycore@1.0.0 (location: /Users/mac399/Documents/BERRY-BOUNCE-3D/Library/PackageCache/com.unity.modules.hierarchycore)
+    com.unity.test-framework@1.8.0 (location: /Users/mac399/Documents/BERRY-BOUNCE-3D/Library/PackageCache/com.unity.test-framework@ee3fe9477490)
+    com.unity.editorcoroutines@6.6.0 (location: /Users/mac399/Documents/BERRY-BOUNCE-3D/Library/PackageCache/com.unity.editorcoroutines@8cd72baa102a)
+    com.unity.ext.nunit@2.1.0 (location: /Users/mac399/Documents/BERRY-BOUNCE-3D/Library/PackageCache/com.unity.ext.nunit@0198eae3b53e)
+[Subsystems] No new subsystems found in resolved package list.
+[Package Manager] Done registering packages in 0.01 seconds
+Starting: /Applications/Unity/Hub/Editor/6000.6.7f1/Unity.app/Contents/Resources/BuildPipeline/bee_backend --ipc --defer-dag-verification --dagfile="Library/Bee/200b0aE.dag" --continue-on-failure --profile="Library/Bee/backend1.traceevents" ScriptAssemblies
+WorkingDir: /Users/mac399/Documents/BERRY-BOUNCE-3D
+ExitCode: 0 Duration: 0s159ms
+[423/529    0s] ILPP-Configuration Library/ilpp-configuration.nevergeneratedoutput
+*** Tundra build success (0.14 seconds), 1 items updated, 529 evaluated
+AssetDatabase: script compilation time: 0.612789s
+Begin MonoManager ReloadAssembly
+Total cache size 268155212
+Total cache size after purge 268155212, took 00:00:00.0844788
+Native extension for OSXStandalone target not found
+ScheduleIndexationOnStartup MainProcess:True IndexOnStartup:True
+Scripting: successfully reloaded assembly
+- Finished resetting the current domain, in  0.328 seconds
+Domain Reload Profiling: 716ms
+	BeginReloadAssembly (106ms)
+		DisableScriptedObjects (8ms)
+		CreateAndSetChildDomain (31ms)
+	RebuildCommonClasses (5ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (23ms)
+	LoadAllAssembliesAndSetupDomain (247ms)
+		LoadAssemblies (125ms)
+		TypeCache.Refresh (82ms)
+			TypeCache.ScanAssembly (74ms)
+		AnalyzeDomain (20ms)
+			BuildScriptInfoCaches (18ms)
+	FinalizeReload (328ms)
+		SetupLoadedEditorAssemblies (0ms)
+			BeforeProcessingInitializeOnLoad (47ms)
+			ProcessInitializeOnLoadAttributes (154ms)
+			ProcessInitializeOnLoadMethodAttributes (21ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Launching external process: /Applications/Unity/Hub/Editor/6000.6.7f1/Unity.app/Contents/Helpers/UnityShaderCompiler
+Starting new worker id: 0 with log in /Users/mac399/Documents/BERRY-BOUNCE-3D/Logs/AssetImportWorkerHW0.log
+
+Asset Pipeline Refresh (id=c9a7ff244fe22422ba2970df603cbf9c): Total: 1.689 seconds - Initiated by InitialRefreshV2(ForceSynchronousImport)
+	(Values over 0.05ms)
+	Summary:
+		Imports: total=0 (actual=0, local cache=0, cache server=0)
+		Asset DB Process Time: managed=0 ms, native=630 ms
+		Asset DB Callback time: managed=14 ms, native=8 ms
+		Scripting: domain reloads=1, domain reload time=404 ms, compile time=614 ms, other=17 ms
+		Project Asset Count: scripts=832, non-scripts=928
+		Asset File Changes: new=0, changed=0, moved=0, deleted=0
+		Scan Filter Count: 1
+	InvokePackagesCallback: 8.767ms
+	ApplyChangesToAssetFolders: 0.193ms
+	Scan: 168.397ms
+	Collect global state as custom dependencies: 4.294ms
+	CategorizeScriptCompilationAssets: 33.707ms
+	ProcessAssetsWithTransientArtifactChanges: 19.452ms
+	CategorizeAssets: 9.849ms
+	CompileScripts: 614.170ms
+	ImportOutOfDateAssets: 333.018ms (331.501ms without children)
+		UnloadImportedAssets: 0.118ms
+		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 0.162ms
+		ImportSchedulerStart: 1.236ms
+	PostProcessAllAssets: 14.574ms
+		MonoPostProcessAllAssets: 14.548ms
+			SyncVS.PostprocessSyncProject 5.318ms
+			WindowAssetPostprocessingWatcher.OnPostprocessAllAssets 3.627ms
+			EditModeScopePostprocessor.OnPostprocessAllAssets 0.388ms
+			SpeedTree9Postprocessor.OnPostprocessAllAssets 0.357ms
+			ReferencedClipsPostProcessor.OnPostprocessAllAssets 0.121ms
+			InputActionAssetPostprocessor.OnPostprocessAllAssets 0.110ms
+			TerrainToolbarOverlayPostProcessor.OnPostprocessAllAssets 0.086ms
+			ProjectSettingsPostprocessor.OnPostprocessAllAssets 0.075ms
+			AssetDatabaseCallbacks.OnPostprocessAllAssets 0.064ms
+	UnloadStreamsBegin: 0.702ms
+	GenerateScriptTypeHashes: 0.589ms
+	GenerateScriptTypeSerializationHashes: 1.295ms
+	Untracked: 480.915ms
+
+Application.AssetDatabase Initial Refresh End
+Launched and connected shader compiler UnityShaderCompiler after 0.03 seconds
+Scanning for USB devices : 0.182ms
+Initializing Unity extensions:
+2026-11-27 16:50:57.498 Unity[3683:103938] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x7c468c5720 SDF, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+[MODES] Loading mode Default (0) for mode-current-id-Berry Bounce 3D
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+Loaded scene 'Assets/b.unity'
+	Deserialize:            0.873 ms
+	Integration:            6.332 ms
+	Integration of assets:  0.001 ms
+	Thread Wait Time:       0.005 ms
+	Total Operation Time:   7.211 ms
+Unloading 4327 unused Assets / (1.9 MB). Loaded Objects now: 5059.
+Memory consumption went from 195.1 MB to 193.2 MB.
+Total: 4.627583 ms (FindLiveObjects: 0.260792 ms CreateObjectMapping: 0.065042 ms MarkObjects: 3.815208 ms  DeleteObjects: 0.431375 ms)
+
+[LAYOUT] About to load UserSettings/Layouts/default-6000.dwlt, keepMainWindow=False
+[LAYOUT] About to save layout /Users/mac399/Documents/BERRY-BOUNCE-3D/UserSettings/Layouts/default-6000.dwlt
+[LAYOUT] About to save layout /Users/mac399/Library/Preferences/Unity/Editor-5.x/Layouts/current/default-6000.dwlt
+[MODES] ModeService[default].InitializeCurrentMode
+[MODES] ModeService[default].RaiseModeChanged(default, default)
+This project uses Input Manager, which is marked for deprecation. To manage input in your project, use the <a href="https://docs.unity3d.com/Packages/com.unity.inputsystem@latest">Input System package</a> instead.
+[Project] Loading completed in 4.031 seconds
+	Project init time: 				3.386 seconds
+		Template init time: 		0.000 seconds
+		Package Manager init time: 		0.294 seconds
+		Asset Database init time: 		0.197 seconds
+		Global illumination init time: 	0.001 seconds
+		Assemblies load time: 			0.708 seconds
+		Unity extensions init time: 	0.013 seconds
+		Asset Database refresh time: 	1.689 seconds
+	Scene opening time: 			0.497 seconds
+##utp:{"type":"ProjectInfo","version":2,"phase":"Immediate","time":1795778457958,"processId":3683,"projectLoad":4.031039709,"projectInit":3.385725875,"templateInit":0.0,"packageManagerInit":0.294208292,"assetDatabaseInit":0.197085042,"globalIlluminationInit":0.001313042,"assembliesLoad":0.708016459,"unityExtensionsInit":0.012567,"assetDatabaseRefresh":1.68943125,"sceneOpening":0.496868708}
+##utp:{"type":"EditorInfo","version":2,"phase":"Immediate","time":1795778457958,"processId":3683,"editorVersion":"6000.6.7f1 (b22767f04f04)","branch":"6000.6/staging","buildType":"Release","platform":"OSX"}
+Subscribe to USB device events
+Scanning for USB devices : 0.177ms
+Worker ready: AssetImportWorkerHW0 0
+Created GICache directory at /Users/mac399/Library/Caches/com.unity3d.UnityEditor/GiCache. Took: 0.003s, timestamps: [4.041 - 4.044]
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully updated the access token
+[Licensing::Module] Successfully updated access token: "jaUpDezi"... (expires: 2026-11-27T13:08:52Z)
+[Licensing::Client] Successfully resolved entitlement details
+UPID Received 'cf40fdff-8f84-4882-b645-93b239f1b267'.
+IPCStream (Upm-3683): IPC stream failed to read (Not connected)
+Unexpected transport error from import worker 0 (possible crash). code=2 error=End of file -- for more information, check Logs/AssetImportWorkerHW0.log
+[OnDemand] Worker 0: WorkerState(Connected), ImporterState(Idle) session transport - while handling importAddress Guid(00000000000000000000000000000000) Importer(-2,00000000000000000000000000000000) - path  - see the AssetImportWorker log for worker 0 at /Logs.
+Cleaned out 1 stale LMDB reader slot(s)
+Cleaned out 1 stale LMDB reader slot(s)
+IPCStream (hubIPCService): IPC stream failed to read (Not connected)
+Starting new worker id: 1 with log in /Users/mac399/Documents/BERRY-BOUNCE-3D/Logs/AssetImportWorkerHW1.log
+Asset Pipeline Refresh (id=5ff17f6c88d944c9c96762aa73c40ae0): Total: 0.085 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+Start Indexing on Editor startup
+[Indexing] Starting Initial Indexing for Assets
+Worker ready: AssetImportWorkerHW1 1
+[Licensing::Module] Error: The connection with the Unity Licensing Client has been lost. Attempting to reconnect.
+[Licensing::IpcConnector] Connection to channel LicenseClient-mac399 refused
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-mac399-6000.6.7" at "2026-11-27T11:21:09.78208Z"
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.18.3+d7ffd15
+  Session Id:              2bf8177c0ae946dc8808c999e8c61d4f
+  Correlation Id:          06e186a80b0b95639b457bd2fa9f35ab
+  External correlation Id: 213280546451242239
+  Machine Id:              DUHqmd3Z3LVhpTTW5/Hqud+6RtU=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-mac399-6000.6.7" (connect: 0.00s, validation: 0.00s, handshake: 0.20s)
+[Licensing::Module] The re-connection attempt was successful.
+[Licensing::Client] Connection to LicenseClient-mac399-6000.6.7-notifications lost
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-mac399-6000.6.7-notifications" at "2026-11-27T11:21:09.986911Z"
+Thread 0x7123b87000 may have been prematurely finalized
+<CFData 0x7c55568000 [0x1e9182f70]>{length = 6, capacity = 6, bytes = 0x1cf64c4357c3}
+Reloading assemblies for play mode.
+Reloading assemblies after forced synchronous recompile.
+Begin MonoManager ReloadAssembly
+Launching external process: /Applications/Unity/Hub/Editor/6000.6.7f1/Unity.app/Contents/Helpers/PackageManager/Server/UnityPackageManager
+Native extension for OSXStandalone target not found
+[Package Manager] Server process stopped with exit code `143`
+[Package Manager] Server process restart attempt #2
+
+[Package Manager] Connected to IPC stream "Upm-3683" after 0.1 seconds.
+ScheduleIndexationOnStartup MainProcess:True IndexOnStartup:True
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+Scripting: successfully reloaded assembly
+- Finished resetting the current domain, in  0.777 seconds
+Domain Reload Profiling: 1112ms
+	BeginReloadAssembly (238ms)
+		DisableScriptedObjects (26ms)
+		CreateAndSetChildDomain (157ms)
+	RebuildCommonClasses (4ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (16ms)
+	LoadAllAssembliesAndSetupDomain (69ms)
+		LoadAssemblies (34ms)
+		TypeCache.Refresh (4ms)
+		AnalyzeDomain (2ms)
+	FinalizeReload (778ms)
+		SetupLoadedEditorAssemblies (0ms)
+			BeforeProcessingInitializeOnLoad (48ms)
+			ProcessInitializeOnLoadAttributes (266ms)
+			ProcessInitializeOnLoadMethodAttributes (51ms)
+		AwakeInstancesAfterBackupRestoration (243ms)
+No restricted APIs configured; Validation skipped.
+Checking 14 assemblies for restricted APIs found 0 usage(s) in 1 ms
+
+Asset Pipeline Refresh (id=82bc3292590f5432da88801cbe2b387e): Total: 1.392 seconds - Initiated by StopAssetImportingV2(ForceSynchronousImport | ForceDomainReload)
+	(Values over 0.05ms)
+	Summary:
+		Imports: total=0 (actual=0, local cache=0, cache server=0)
+		Asset DB Process Time: managed=0 ms, native=852 ms
+		Asset DB Callback time: managed=139 ms, native=52 ms
+		Scripting: domain reloads=1, domain reload time=345 ms, compile time=1 ms, other=0 ms
+		Project Asset Count: scripts=832, non-scripts=928
+		Asset File Changes: new=0, changed=0, moved=0, deleted=0
+		Scan Filter Count: 0
+	InvokePackagesCallback: 0.451ms
+	ApplyChangesToAssetFolders: 0.093ms
+	Collect global state as custom dependencies: 0.188ms
+	ProcessAssetsWithTransientArtifactChanges: 42.954ms
+	CategorizeAssets: 6.470ms
+	CompileScripts: 0.914ms
+	ImportOutOfDateAssets: 780.127ms (779.381ms without children)
+		UnloadImportedAssets: 0.482ms
+		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 0.136ms
+		ImportSchedulerStart: 0.124ms
+	PostProcessAllAssets: 189.070ms
+		PostprocessAssetsUpdateCachedIcon 6.513ms
+		PostProcessCallbackCreateDeferredMaterials 5.250ms
+		AssemblyValidation.PostprocessAllAssets 4.197ms
+		ShaderAssetModifiedCallback 3.332ms
+		RaytracingShaderImportPostprocess 2.818ms
+		ComputeShaderImportPostprocess 2.607ms
+		SpeedTreeImporter.PostprocessAllAssets 2.339ms
+		LocalizationDatabase.AssetDatabasePostprocessCallback 1.299ms
+		BlockShaderImporter.PostprocessAllAssets 1.272ms
+		XRBuildSystem.XRAssetImported 0.063ms
+		MonoPostProcessAllAssets: 138.814ms
+			SyncVS.PostprocessSyncProject 80.645ms
+			InputActionJsonNameModifierAssetProcessor.OnPostprocessAllAssets 12.548ms
+			InputActionAssetPostprocessor.OnPostprocessAllAssets 12.469ms
+			AssetPostprocessor.OnPostprocessAllAssets 6.924ms
+			TextAssetPostProcessor.OnPostprocessAllAssets 6.861ms
+			AssetChangedListener.OnPostprocessAllAssets 4.822ms
+			BuilderAssetPostprocessor.OnPostprocessAllAssets 3.012ms
+			WindowAssetPostprocessingWatcher.OnPostprocessAllAssets 2.026ms
+			SpeedTree9Postprocessor.OnPostprocessAllAssets 0.835ms
+			RetainedModeAssetPostprocessor.OnPostprocessAllAssets 0.712ms
+			ProjectSettingsPostprocessor.OnPostprocessAllAssets 0.425ms
+			ArtifactBrowserPostProcessor.OnPostprocessAllAssets 0.194ms
+			StyleCatalogPostProcessor.OnPostprocessAllAssets 0.174ms
+			UVCSAssetPostprocessor.OnPostprocessAllAssets 0.132ms
+			SpeedTreePostProcessor.OnPostprocessAllAssets 0.127ms
+			ThemePostprocessor.OnPostprocessAllAssets 0.122ms
+			TMPro_TexturePostProcessor.OnPostprocessAllAssets 0.120ms
+			AudioMixerPostprocessor.OnPostprocessAllAssets 0.117ms
+			EditModeScopePostprocessor.OnPostprocessAllAssets 0.105ms
+			ReferencedClipsPostProcessor.OnPostprocessAllAssets 0.102ms
+			AssetEvents.OnPostprocessAllAssets 0.076ms
+			SamplePostprocessor.OnPostprocessAllAssets 0.055ms
+	PostAssetChangesProfiler: 3.443ms
+	UnloadStreamsBegin: 0.434ms
+	GenerateScriptTypeHashes: 0.340ms
+	GenerateScriptTypeSerializationHashes: 0.775ms
+	Untracked: 366.248ms
+
+Loaded scene 'Temp/__Backupscenes/0.backup'
+	Deserialize:            0.251 ms
+	Integration:            444.095 ms
+	Integration of assets:  0.001 ms
+	Thread Wait Time:       0.005 ms
+	Total Operation Time:   444.351 ms
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+TrimDiskCacheJob: Current cache size 0mb
+Thread 0x173f13000 may have been prematurely finalized
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+Loaded scene 'Temp/__Backupscenes/0.backup'
+	Deserialize:            0.245 ms
+	Integration:            8.367 ms
+	Integration of assets:  0.001 ms
+	Thread Wait Time:       0.007 ms
+	Total Operation Time:   8.621 ms
+Unloading 4066 unused Assets / (19.0 MB). Loaded Objects now: 6019.
+Memory consumption went from 279.2 MB to 260.2 MB.
+Total: 17.608417 ms (FindLiveObjects: 0.304250 ms CreateObjectMapping: 0.098750 ms MarkObjects: 14.973167 ms  DeleteObjects: 2.155583 ms)
+
+[ScriptCompilation] Requested script compilation because: AssetDatabase observed changes in script compilation related files
+[Licensing::Client] Successfully resolved entitlement details
+Starting: /Applications/Unity/Hub/Editor/6000.6.7f1/Unity.app/Contents/Resources/BuildPipeline/bee_backend --ipc --defer-dag-verification --dagfile="Library/Bee/200b0aE.dag" --continue-on-failure --profile="Library/Bee/backend1.traceevents" ScriptAssemblies
+WorkingDir: /Users/mac399/Documents/BERRY-BOUNCE-3D
+ExitCode: 0 Duration: 1s962ms
+[422/529    0s] ILPP-Configuration Library/ilpp-configuration.nevergeneratedoutput
+[525/529    1s] Csc Library/Bee/artifacts/200b0aE.dag/Assembly-CSharp.dll (+2 others)
+Assets/Aadish3DGame.cs(4281,48): warning UAC1015: Field 'LevelDialogues' is a dictionary type 'System.Collections.Generic.Dictionary<int, System.Collections.Generic.List<Aadish3DGame.DialogueLine>>' but is missing [SerializeField]. Unity's dictionary serialization backend skips dictionary fields without [SerializeField], even when the field is public. Add [SerializeField] to serialize this field, or [NonSerialized] to make the intent explicit. Refer to the Serialization rules analyzer reference. (https://docs.unity3d.com/Manual/script-serialization-analyzer.html#uac1015)
+Assets/Aadish3DGame.cs(4282,48): warning UAC1015: Field 'BossPreFightDialogues' is a dictionary type 'System.Collections.Generic.Dictionary<int, System.Collections.Generic.List<Aadish3DGame.DialogueLine>>' but is missing [SerializeField]. Unity's dictionary serialization backend skips dictionary fields without [SerializeField], even when the field is public. Add [SerializeField] to serialize this field, or [NonSerialized] to make the intent explicit. Refer to the Serialization rules analyzer reference. (https://docs.unity3d.com/Manual/script-serialization-analyzer.html#uac1015)
+Assets/Aadish3DGame.cs(4283,31): warning UAC1001: Field 'CurrentConversation' type 'Aadish3DGame.DialogueLine' is skipped by serialization (missing the [Serializable] attribute). Refer to the Serialization rules analyzer reference. (https://docs.unity3d.com/6000.6/Documentation/Manual/script-serialization-analyzer.html#uac1001)
+[526/529    0s] ILPostProcess Library/Bee/artifacts/200b0aE.dag/post-processed/Assembly-CSharp.dll (+pdb)
+Processing assembly Library/Bee/artifacts/200b0aE.dag/Assembly-CSharp.dll, with 144 defines and 318 references
+processors: zzzUnity.Burst.CodeGen.BurstILPostProcessor
+1 processor(s) skipped this assembly
+[527/529    0s] CopyFiles Library/ScriptAssemblies/Assembly-CSharp.pdb
+[528/529    0s] CopyFiles Library/ScriptAssemblies/Assembly-CSharp.dll
+*** Tundra build success (1.94 seconds), 5 items updated, 529 evaluated
+Assets/Aadish3DGame.cs(4281,48): warning UAC1015: Field 'LevelDialogues' is a dictionary type 'System.Collections.Generic.Dictionary<int, System.Collections.Generic.List<Aadish3DGame.DialogueLine>>' but is missing [SerializeField]. Unity's dictionary serialization backend skips dictionary fields without [SerializeField], even when the field is public. Add [SerializeField] to serialize this field, or [NonSerialized] to make the intent explicit. Refer to the Serialization rules analyzer reference. (https://docs.unity3d.com/Manual/script-serialization-analyzer.html#uac1015)
+Assets/Aadish3DGame.cs(4282,48): warning UAC1015: Field 'BossPreFightDialogues' is a dictionary type 'System.Collections.Generic.Dictionary<int, System.Collections.Generic.List<Aadish3DGame.DialogueLine>>' but is missing [SerializeField]. Unity's dictionary serialization backend skips dictionary fields without [SerializeField], even when the field is public. Add [SerializeField] to serialize this field, or [NonSerialized] to make the intent explicit. Refer to the Serialization rules analyzer reference. (https://docs.unity3d.com/Manual/script-serialization-analyzer.html#uac1015)
+Assets/Aadish3DGame.cs(4283,31): warning UAC1001: Field 'CurrentConversation' type 'Aadish3DGame.DialogueLine' is skipped by serialization (missing the [Serializable] attribute). Refer to the Serialization rules analyzer reference. (https://docs.unity3d.com/6000.6/Documentation/Manual/script-serialization-analyzer.html#uac1001)
+Reloading assemblies after forced synchronous recompile.
+Begin MonoManager ReloadAssembly
+Total cache size 268155212
+Total cache size after purge 268155212, took 00:00:00.1043763
+Thread 0x7104513000 may have been prematurely finalized
+Native extension for OSXStandalone target not found
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+2026-11-27 16:52:12.579 Unity[3683:103938] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x7c468b8b40 SDF, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+ScheduleIndexationOnStartup MainProcess:True IndexOnStartup:True
+Scripting: successfully reloaded assembly
+- Finished resetting the current domain, in  0.725 seconds
+Domain Reload Profiling: 1177ms
+	BeginReloadAssembly (276ms)
+		DisableScriptedObjects (36ms)
+		CreateAndSetChildDomain (155ms)
+	RebuildCommonClasses (4ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (20ms)
+	LoadAllAssembliesAndSetupDomain (143ms)
+		LoadAssemblies (40ms)
+		TypeCache.Refresh (6ms)
+		AnalyzeDomain (66ms)
+			BuildScriptInfoCaches (63ms)
+	FinalizeReload (725ms)
+		SetupLoadedEditorAssemblies (0ms)
+			BeforeProcessingInitializeOnLoad (93ms)
+			ProcessInitializeOnLoadAttributes (156ms)
+			ProcessInitializeOnLoadMethodAttributes (53ms)
+		AwakeInstancesAfterBackupRestoration (238ms)
+
+Asset Pipeline Refresh (id=2be4a28b377964823b77f4ae69eb6575): Total: 3.601 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+	(Values over 0.05ms)
+	Summary:
+		Imports: total=0 (actual=0, local cache=0, cache server=0)
+		Asset DB Process Time: managed=0 ms, native=933 ms
+		Asset DB Callback time: managed=21 ms, native=4 ms
+		Scripting: domain reloads=1, domain reload time=465 ms, compile time=1 ms, other=0 ms
+		Project Asset Count: scripts=832, non-scripts=928
+		Asset File Changes: new=0, changed=1, moved=0, deleted=0
+		Scan Filter Count: 1
+	InvokePackagesCallback: 0.495ms
+	ApplyChangesToAssetFolders: 0.115ms
+	Scan: 140.246ms
+	Collect global state as custom dependencies: 0.272ms
+	ProcessAssetsWithTransientArtifactChanges: 1.383ms
+	CategorizeAssets: 7.274ms
+	CompileScripts: 1.164ms
+	ImportOutOfDateAssets: 727.553ms (727.044ms without children)
+		UnloadImportedAssets: 0.148ms
+		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 0.164ms
+		ImportSchedulerStart: 0.194ms
+	PostProcessAllAssets: 21.813ms
+		XRBuildSystem.XRAssetImported 0.065ms
+		MonoPostProcessAllAssets: 21.519ms
+			SyncVS.PostprocessSyncProject 3.443ms
+			BuilderAssetPostprocessor.OnPostprocessAllAssets 3.249ms
+			AssetChangedListener.OnPostprocessAllAssets 2.518ms
+			WindowAssetPostprocessingWatcher.OnPostprocessAllAssets 2.444ms
+			AssetPostprocessor.OnPostprocessAllAssets 1.644ms
+			RetainedModeAssetPostprocessor.OnPostprocessAllAssets 0.529ms
+			EditModeScopePostprocessor.OnPostprocessAllAssets 0.393ms
+			SpeedTree9Postprocessor.OnPostprocessAllAssets 0.361ms
+			ProjectSettingsPostprocessor.OnPostprocessAllAssets 0.356ms
+			ArtifactBrowserPostProcessor.OnPostprocessAllAssets 0.265ms
+			TMPro_TexturePostProcessor.OnPostprocessAllAssets 0.242ms
+			TextAssetPostProcessor.OnPostprocessAllAssets 0.191ms
+			InputActionAssetPostprocessor.OnPostprocessAllAssets 0.176ms
+			UVCSAssetPostprocessor.OnPostprocessAllAssets 0.152ms
+			AudioMixerPostprocessor.OnPostprocessAllAssets 0.139ms
+			InputActionJsonNameModifierAssetProcessor.OnPostprocessAllAssets 0.130ms
+			SpeedTreePostProcessor.OnPostprocessAllAssets 0.111ms
+			ReferencedClipsPostProcessor.OnPostprocessAllAssets 0.107ms
+			ThemePostprocessor.OnPostprocessAllAssets 0.092ms
+			AssetEvents.OnPostprocessAllAssets 0.088ms
+			StyleCatalogPostProcessor.OnPostprocessAllAssets 0.088ms
+			TerrainToolbarOverlayPostProcessor.OnPostprocessAllAssets 0.068ms
+			AssetDatabaseCallbacks.OnPostprocessAllAssets 0.057ms
+			SamplePostprocessor.OnPostprocessAllAssets 0.054ms
+	PostAssetChangesProfiler: 3.964ms
+	GenerateScriptTypeHashes: 0.414ms
+	GenerateScriptTypeSerializationHashes: 0.952ms
+	Untracked: 476.746ms
+
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+Reloading assemblies for play mode.
+Reloading assemblies after forced synchronous recompile.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+ScheduleIndexationOnStartup MainProcess:True IndexOnStartup:True
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+Scripting: successfully reloaded assembly
+- Finished resetting the current domain, in  0.760 seconds
+Domain Reload Profiling: 1090ms
+	BeginReloadAssembly (227ms)
+		DisableScriptedObjects (30ms)
+		CreateAndSetChildDomain (142ms)
+	RebuildCommonClasses (4ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (18ms)
+	LoadAllAssembliesAndSetupDomain (73ms)
+		LoadAssemblies (32ms)
+		TypeCache.Refresh (4ms)
+		AnalyzeDomain (2ms)
+	FinalizeReload (760ms)
+		SetupLoadedEditorAssemblies (0ms)
+			BeforeProcessingInitializeOnLoad (59ms)
+			ProcessInitializeOnLoadAttributes (150ms)
+			ProcessInitializeOnLoadMethodAttributes (53ms)
+		AwakeInstancesAfterBackupRestoration (263ms)
+
+Asset Pipeline Refresh (id=9d8a001e129584809bc95c78fd697d77): Total: 1.144 seconds - Initiated by StopAssetImportingV2(ForceSynchronousImport | ForceDomainReload)
+	(Values over 0.05ms)
+	Summary:
+		Imports: total=0 (actual=0, local cache=0, cache server=0)
+		Asset DB Process Time: managed=0 ms, native=789 ms
+		Asset DB Callback time: managed=11 ms, native=0 ms
+		Scripting: domain reloads=1, domain reload time=341 ms, compile time=1 ms, other=0 ms
+		Project Asset Count: scripts=832, non-scripts=928
+		Asset File Changes: new=0, changed=0, moved=0, deleted=0
+		Scan Filter Count: 0
+	InvokePackagesCallback: 0.528ms
+	ApplyChangesToAssetFolders: 0.106ms
+	Collect global state as custom dependencies: 0.206ms
+	CategorizeAssets: 7.631ms
+	CompileScripts: 1.137ms
+	ImportOutOfDateAssets: 761.989ms (761.611ms without children)
+		UnloadImportedAssets: 0.059ms
+		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 0.150ms
+		ImportSchedulerStart: 0.165ms
+	PostProcessAllAssets: 11.092ms
+		MonoPostProcessAllAssets: 11.091ms
+			SyncVS.PostprocessSyncProject 3.354ms
+			BuilderAssetPostprocessor.OnPostprocessAllAssets 3.249ms
+			AssetChangedListener.OnPostprocessAllAssets 2.518ms
+			WindowAssetPostprocessingWatcher.OnPostprocessAllAssets 2.333ms
+			AssetPostprocessor.OnPostprocessAllAssets 1.644ms
+			RetainedModeAssetPostprocessor.OnPostprocessAllAssets 0.529ms
+			ProjectSettingsPostprocessor.OnPostprocessAllAssets 0.344ms
+			SpeedTree9Postprocessor.OnPostprocessAllAssets 0.344ms
+			ArtifactBrowserPostProcessor.OnPostprocessAllAssets 0.265ms
+			TMPro_TexturePostProcessor.OnPostprocessAllAssets 0.242ms
+			TextAssetPostProcessor.OnPostprocessAllAssets 0.191ms
+			UVCSAssetPostprocessor.OnPostprocessAllAssets 0.152ms
+			AudioMixerPostprocessor.OnPostprocessAllAssets 0.139ms
+			InputActionJsonNameModifierAssetProcessor.OnPostprocessAllAssets 0.130ms
+			EditModeScopePostprocessor.OnPostprocessAllAssets 0.124ms
+			ReferencedClipsPostProcessor.OnPostprocessAllAssets 0.116ms
+			SpeedTreePostProcessor.OnPostprocessAllAssets 0.111ms
+			InputActionAssetPostprocessor.OnPostprocessAllAssets 0.105ms
+			ThemePostprocessor.OnPostprocessAllAssets 0.092ms
+			AssetEvents.OnPostprocessAllAssets 0.088ms
+			StyleCatalogPostProcessor.OnPostprocessAllAssets 0.088ms
+			AssetDatabaseCallbacks.OnPostprocessAllAssets 0.055ms
+			SamplePostprocessor.OnPostprocessAllAssets 0.054ms
+			TerrainToolbarOverlayPostProcessor.OnPostprocessAllAssets 0.053ms
+	GenerateScriptTypeHashes: 0.409ms
+	GenerateScriptTypeSerializationHashes: 0.935ms
+	Untracked: 360.045ms
+
+Loaded scene 'Temp/__Backupscenes/0.backup'
+	Deserialize:            0.313 ms
+	Integration:            467.875 ms
+	Integration of assets:  0.001 ms
+	Thread Wait Time:       0.004 ms
+	Total Operation Time:   468.193 ms
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+Asset Pipeline Refresh (id=1134bf27b421e4b0bba14811b5257d73): Total: 0.037 seconds - Initiated by RefreshV2(NoUpdateAssetOptions)
+Asset Pipeline Refresh (id=3f1d44810a9f4412eae76522496f7770): Total: 0.031 seconds - Initiated by RefreshV2(NoUpdateAssetOptions)
+Asset Pipeline Refresh (id=e54ddf6fd830647d0a68a3e1ae924615): Total: 0.042 seconds - Initiated by RefreshV2(NoUpdateAssetOptions)
+Asset Pipeline Refresh (id=4ce9271cbad72440493da063fd388630): Total: 0.030 seconds - Initiated by RefreshV2(NoUpdateAssetOptions)
+Asset Pipeline Refresh (id=62cab8f7bc6e440b8bb042635670ed91): Total: 0.034 seconds - Initiated by RefreshV2(NoUpdateAssetOptions)
+Asset Pipeline Refresh (id=2bd7d49369d734ac09efa6d407f623d5): Total: 0.030 seconds - Initiated by RefreshV2(NoUpdateAssetOptions)
+MonoPathRemapper: Attempts to remap: 43964; Successful remaps: 11328
+Thread 0x712394f000 may have been prematurely finalized
+Thread 0x71092af000 may have been prematurely finalized
+Serialized file version minimum: 23, current 23
+[LAYOUT] About to save layout /Users/mac399/Documents/BERRY-BOUNCE-3D/UserSettings/Layouts/default-6000.dwlt
+[LAYOUT] About to save layout /Users/mac399/Library/Preferences/Unity/Editor-5.x/Layouts/current/default-6000.dwlt
+Thread 0x71054b7000 may have been prematurely finalized
+Input System module state changed to: ShutdownInProgress.
+Input Polling Thread exited.
+Input System module state changed to: Shutdown.
+Thread 0x1740b7000 may have been prematurely finalized
+Thread 0x1741cf000 may have been prematurely finalized
+Thread 0x174143000 may have been prematurely finalized
+Thread 0x17448b000 may have been prematurely finalized
+Thread 0x17425b000 may have been prematurely finalized
+Thread 0x174517000 may have been prematurely finalized
+Thread 0x1742e7000 may have been prematurely finalized
+Thread 0x1743ff000 may have been prematurely finalized
+Thread 0x174373000 may have been prematurely finalized
+[Physics::Module] Cleanup current backend.
+[Physics::Module] Id: 0xf2b8ea05
+[Licensing::IpcConnector] LicenseClient-mac399-6000.6.7-notifications channel disconnected successfully.
+[Licensing::IpcConnector] LicenseClient-mac399-6000.6.7 channel disconnected successfully.
+Shut down UDS service system complete
+Lingering sessions upon destruction of worker manager
+Closing Unity without connected service process id. Process id for service is expected.
+UDS shutting down local client system
+AcceleratorClientConnectionCallback - disconnected - :0
+Cleanup mono
+CodeReloadManager destroyed
+debugger-agent: Unable to listen on 88
+VBCSCompilerPreWarmer: requested VBCSCompiler shutdown
+Checking for leaked weakptr:
+  Found no leaked weakptrs.
+[Package Manager] Server process was shutdown
+##utp:{"type":"MemoryLeaks","version":2,"phase":"Immediate","time":1795778643564,"processId":3683,"allocatedMemory":9554598,"memoryLabels":[{"Default":195163},{"Permanent":15672},{"Thread":1046568},{"Manager":25622},{"VertexData":8},{"Geometry":416},{"Texture":24},{"Shader":854014},{"Material":212},{"GfxDevice":42304},{"GfxThread":1920},{"Animation":968},{"FreeType":8},{"FontEngine":736},{"Physics":2002},{"Physics2D":16},{"Serialization":17656},{"Input":43216},{"JobScheduler":448},{"TextLib":19179},{"Mono":56},{"ScriptingNativeRuntime":155024},{"BaseObject":63904},{"Resource":1460},{"Renderer":2736},{"Transform":4733},{"File":7569},{"WebCam":32},{"Culling":32},{"Terrain":11346},{"Wind":24},{"String":863840},{"StaticString":3808},{"Utility":2692032},{"PoolAlloc":1960},{"AI":80},{"TypeTree":126100},{"ScriptManager":31640},{"CodeReload":448},{"RuntimeInitializeOnLoadManager":64},{"Sprites":102},{"SpriteAtlas":120},{"GI":7240},{"Director":8288},{"CloudService":7584},{"WebRequest":4434},{"VR":49426},{"SceneManager":616},{"Video":2112},{"LazyScriptCache":32},{"NativeArray":3744},{"Camera":1177},{"Secure":9865},{"SerializationCache":9704},{"APIUpdating":10320},{"Subsystems":336},{"VirtualTexturing":57504},{"StaticSafetyDebugInfo":278528},{"Baselib":16},{"Analytics":568},{"Hierarchy":1492},{"UIElements":40},{"CoreStats":14536},{"Identifiers":7152},{"EntityIdStore":33152},{"Gui":13082},{"EditorUtility":338399},{"VersionControl":8},{"Undo":939},{"AssetDatabase":2403086},{"AssetImporter":40},{"EditorGi":328},{"UnityConnect":37369},{"Upm":1788},{"UpmDiagnostics":8},{"AssetCompliance":96},{"DrivenProperties":72},{"HubClient":848},{"LocalIPC":205},{"ProfilerEditor":9738},{"CoreBusinessMetrics":3205},{"Windowing":416},{"Licensing":992},{"AssetReference":32},{"IPCStream":7003}]}
